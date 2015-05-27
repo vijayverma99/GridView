@@ -10,7 +10,7 @@ using System.Web.UI.WebControls;
 
 public partial class _Default : System.Web.UI.Page
 {
-    SqlConnection con = new SqlConnection(@"Data Source=GANESHA-PC\SQLEXPRESS;Initial Catalog=master;Integrated Security=True");
+    SqlConnection con = new SqlConnection(@"Server=f986f9d9-4d7d-42ba-a15b-a4a500b65edc.sqlserver.sequelizer.com;Database=dbf986f9d94d7d42baa15ba4a500b65edc;User ID=usqgzsdycgafzhjg;Password=3nYLrCoknsNFY2nKBhCMiUF25sLGi3dkgpahB8vsDBcMeJimbyTWWRghP7Q7YNct;");
     protected void Page_Load(object sender, EventArgs e)
     {
         if (!IsPostBack)
